@@ -1,4 +1,4 @@
-# Task Management Application
+# Task Management System
 
 A web-based application to efficiently manage your tasks.
 
