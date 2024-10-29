@@ -38,3 +38,8 @@ Feel free to contribute to this project by:
 
 ## License
 This project is licensed under the MIT License.
+
+## Screenshots
+![Registration Page](/screenshots/pic-1.png)
+![Login Page](/screenshots/pic-2.png)
+![Task Management Page](/screenshots/pic-3.png)
