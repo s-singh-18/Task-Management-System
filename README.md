@@ -22,7 +22,7 @@ A web-based application to efficiently manage your tasks.
 2. **Install dependencies:**
    ```bash
    cd task-management-app
-   npm install 
+   npm install express mongoose bcryptjs jsonwebtoken dotenv
 3. **Start the server:**
    ```bash
    node server.js
