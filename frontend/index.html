@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-section" style="display:none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="switch-to-register">Register here</a></p>
+        </div>
+    
+        <div id="register-section" style="display:none;">
+            <h2>Register</h2>
+            <form id="register-form">
+                <input type="text" id="register-username" placeholder="Username" required>
+                <input type="email" id="register-email" placeholder="Email" required>
+                <input type="password" id="register-password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="switch-to-login">Login here</a></p>
+        </div>
+
+        <div id="task-section" style="display:none;">
+            <h2>Your Tasks</h2>
+            <button id="logout-btn">Logout</button>
+            <div id="task-count" style="font-size: 1.2em; margin-bottom: 10px;">Total Tasks: 0</div>
+            <form id="task-form">
+                <input type="text" id="task-title" placeholder="Task Title" required>
+                <input type="text" id="task-description" placeholder="Task Description" required>
+                <button type="submit">Add Task</button>
+            </form>
+            <div id="task-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
