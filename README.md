@@ -1,4 +1,3 @@
-Markdown
 # Task Management Application
 
 A web-based application to efficiently manage your tasks.
@@ -18,27 +17,24 @@ A web-based application to efficiently manage your tasks.
 ## Getting Started
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/task-management-app.git](https://github.com/yourusername/task-management-app.git)
-Use code with caution.
+   git clone [https://github.com/s-singh-18/task-management-app.git](https://github.com/s-singh-18/task-management-app.git)
 
-Install dependencies:
-Bash
-cd task-management-app
-npm install
-Use code with caution.
+2. **Install dependencies:**
+   ```bash
+   cd task-management-app
+   npm install 
+3. **Start the server:**
+   ```bash
+   node server.js
 
-Start the server:
-Bash
-npm start
-Use code with caution.
-
-Contributing
+## Contributing
 Feel free to contribute to this project by:
 
-Forking the repository
-Creating a new branch
-Making your changes
-Pushing your changes
-Submitting a pull request
-License
+* Forking the repository
+* Creating a new branch
+* Making your changes
+* Pushing your changes
+* Submitting a pull request
+
+## License
 This project is licensed under the MIT License.
